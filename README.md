@@ -9,9 +9,6 @@
     ├── internal/
     |   ├── api/
     |   |   ├── http/
-    |   |   |   ├── admin/
-    |   |   |   |   ├── admin.go
-    |   |   |   |   ├── admin_test.go
     |   |   |   ├── middleware/
     |   |   |   |   ├── middleware.go
     |   |   |   |   ├── middleware_test.go
@@ -33,8 +30,9 @@
     |   |   |   └── user_service_test.go
     |   |   ├── model/
     |   |   |   ├── user_model.go
-    |   |   ├── user.go
-    |   |   └── user_test.go
+    |   |   ├── handler/
+    |   |   |   ├── user_handler.go
+    |   |   |   └── user_handler_test.go
     ├── Dockerfile
     ├── Makefile
     ├── README.md
